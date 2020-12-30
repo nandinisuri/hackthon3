@@ -1,0 +1,111 @@
+package com.qa.testcases;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.List;
+import java.util.Properties;
+
+import javax.print.attribute.standard.MediaSize.NA;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.tools.ant.types.resources.Last;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Reporter;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.qaTestBase.TestBASE;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+
+
+
+
+public class  feron_multiple extends TestBASE{
+
+
+
+	public feron_multiple() throws IOException 
+	
+	{
+		super();
+	}
+
+		
+
+@BeforeMethod
+@Parameters("browser")
+
+public void Start_initialization(String browser) throws IOException {
+	
+	//
+	OpenBrowser(browser);
+	//
+	GetURL(config.getProperty("URL"));
+	
+	
+	}
+
+
+@Test()
+public void feron_multiple1() throws IOException, Exception  {
+	 Reporter.log("feron_multiple1",true);
+	 
+	  	///EXTENT REPORTS///
+		ExtentReports ex = new ExtentReports(System.getProperty("user.dir")+"/test-output/FERONMproductnewReport.html");
+	 ExtentTest test =ex.startTest("feron_multiple");
+	 
+		///////LOGIN////
+	 
+	// Click(driver, org.getProperty("Login"));
+	 Reporter.log("Feron_Login",true);
+
+
+		Feron_Login login= new Feron_Login();
+        login.Feron_LoginPAGE();
+        
+        ///////MOUSEOVER ONLINE PRODUCTS//////
+Actions a = new Actions(driver);
+a.moveToElement(driver.findElement(By.xpath("//a[text()='Online Products']"))).perform();
+ Reporter.log("Online Products",true);
+        ///////NPRODUCT////
+ Click(driver, org.getProperty("Nproduct"));
+ Reporter.log("Nproduct",true);
+
+ JavascriptExecutor js = (JavascriptExecutor) driver;
+ js.executeScript("window.scrollBy(0,650)", "");
+
+ //"//div[@class='product-image']"
+//*[@id="site"]/div/div[1]/div[4]/div/div[1]/a[1]
+//List<WebElement> tablets = driver.findElements(By.xpath("//div[@class='product-image']"));
+List<WebElement> tablets = driver.findElements(By.xpath("//*[@id=\"site\"]/div/div[1]/div[/+i+/]/div/div[1]"));
+
+int tablets_size = tablets.size();
+System.out.println(tablets_size);
+for(int i=1;i<=tablets_size;i++);
+{
+	WebElement tablets1 = driver.findElement(By.xpath("//*[@id=\"site\"]/div/div[1]/div[/+i+/]/div/div[1]"));
+	String afinitor = tablets1.getText();
+	Reporter.log("Afinitor",true);
+	Click(driver, org.getProperty("product"));
+	driver.navigate().to("http://grepthorhosting.com/feron/onlineproducts/1"); 
+}
+				 			 			 
+		  }
+
+		  }
+				      
+
+
+
+
+
+
+	

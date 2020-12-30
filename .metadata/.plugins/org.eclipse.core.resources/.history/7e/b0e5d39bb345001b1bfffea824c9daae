@@ -1,0 +1,177 @@
+package com.qa.testcases;
+
+import java.io.IOException;
+import java.util.List;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Reporter;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.qaTestBase.TestBASE;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+
+public class  feron_product1 extends TestBASE{
+
+	public feron_product1() throws IOException 
+	
+	{
+		super();
+	}
+
+	
+	
+
+	@BeforeMethod
+	@Parameters("browser")
+
+	public void Start_initialization(String browser) throws IOException {
+		
+		//
+		OpenBrowser(browser);
+		//
+		GetURL(config.getProperty("URL"));
+		
+		
+		}
+		
+	
+
+		@Test()
+		public void feron_product1() throws IOException, InterruptedException  {
+			 Reporter.log("feron_product1",true);
+			 
+			  	///EXTENT REPORTS///
+				ExtentReports ex = new ExtentReports(System.getProperty("user.dir")+"/test-output/FERONproductnewReport.html");
+			 ExtentTest test =ex.startTest("Feron_product1");
+			 
+				///////LOGIN////
+			 
+			 Click(driver, org.getProperty("Login"));
+			 Reporter.log("Feron_Login",true);
+
+
+				Feron_Login login= new Feron_Login();
+	            login.Feron_Login();
+	            
+	            ///////MOUSEOVER ONLINE PRODUCTS//////
+	    Actions a = new Actions(driver);
+	    a.moveToElement(driver.findElement(By.xpath("//a[text()='Online Products']"))).perform();
+		 Reporter.log("Online Products",true);
+                ///////NPRODUCT////
+		 Click(driver, org.getProperty("Nproduct"));
+		 Reporter.log("Nproduct",true);
+
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+		 js.executeScript("window.scrollBy(0,650)", "");
+				  
+				
+				  
+		 Click(driver, org.getProperty("cloud"));
+
+	      Click(driver, org.getProperty("title"));
+		  Click(driver, org.getProperty("title1"));
+					 ///ADD TO CART////
+		  Click(driver, org.getProperty("addtocart"));
+			 Thread.sleep(2000);
+			 Alert alert = driver.switchTo().alert();
+				String dd=alert.getText();
+				System.out.println(dd);
+				alert.accept();
+				
+						/////ADD TO CART////
+				 Actions aw = new Actions(driver);
+				   Click(driver, org.getProperty("cart"));
+				          
+				         /////CHECKOUT//////  
+				          
+				  Actions a1 = new Actions(driver);
+							  
+					Click(driver, org.getProperty("checkout"));
+					 Reporter.log("checkout",true);
+                   /////CHECKOUT DETAILS//////
+					Sendkeys(driver, org.getProperty("firstname"), config.getProperty("Firstname"));
+					 Reporter.log("Firstname",true);
+
+					Sendkeys(driver, org.getProperty("lastname"), config.getProperty("Lastname"));
+					 Reporter.log("Lastname",true);
+
+					Sendkeys(driver, org.getProperty("EMAIL"), config.getProperty("emaiL"));
+					 Reporter.log("emaiL",true);
+
+					Sendkeys(driver, org.getProperty("phone"), config.getProperty("PhonE"));
+					 Reporter.log("PhonE",true);
+
+					  Select s= new Select(driver.findElement(By.name("got_the_knowledge")));
+						 Reporter.log("got_the_knowledge",true);
+
+							
+					List<WebElement> options= s.getOptions();
+							 
+					int options_size = options.size();
+					    System.out.println(options_size);
+					        
+					    for(int i=0;i<=options_size;i++) {
+					        	
+					       String opt_value = options.get(i).getText();
+							 Reporter.log("opt_value",true);
+
+					        	
+					       System.out.println(opt_value);
+					       if (opt_value.equals("As per doctors prescription")) {
+					       	s.selectByVisibleText(opt_value); 
+					 /////LIST OF LOCATION///////       		
+				 Click(driver, org.getProperty("location"));
+				Select s1= new Select(driver.findElement(By.name("location")));
+
+				List<WebElement> voptions= s1.getOptions();
+			int voptions_size = voptions.size();
+				  System.out.println(voptions_size);
+					 Reporter.log("voptions_size",true);
+
+						     	        
+			  for(int j=0;j<=voptions_size;j++) {
+						     	        	
+			String vopt_name = voptions.get(j).getText();
+						     	        	
+			System.out.println(vopt_name);
+			  if (vopt_name.equals("vijayawada")) {
+			s1.selectByVisibleText(vopt_name);
+			 Reporter.log("vopt_name",true);
+
+				/////PAYMENT DETAILS///////
+				Sendkeys(driver, org.getProperty("doctor"), config.getProperty("Doctorname"));
+				 Reporter.log("doctorname",true);
+
+				Sendkeys(driver, org.getProperty("hospital"), config.getProperty("Hospitalname"));
+				 Reporter.log("hospitalname",true);
+
+				Sendkeys(driver, org.getProperty("address"), config.getProperty("Address"));
+				 Reporter.log("Address",true);
+
+                 
+				////PAYBUTTON///
+				  Click(driver, org.getProperty("paybutton"));
+					 Reporter.log("paybutton",true);
+
+				 test.log(LogStatus.PASS, "TEST PASSED");
+
+							           
+
+			       ex.endTest(test);
+				   ex.flush();
+
+	          	        	
+	        
+					        	}}}
+	          	        	
+					        }}
+		}

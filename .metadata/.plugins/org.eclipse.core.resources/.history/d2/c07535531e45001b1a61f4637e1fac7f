@@ -1,0 +1,45 @@
+####### Loging fun#######
+
+Login   =  //a[text()='Login']
+USERNAME= //input[@name='email']
+Password= //input[@name='password']
+Loginbutton= //button[contains(text(),'Login')]
+
+
+######   Signup  ######
+
+Signup =//a[text()='SIGNUP']
+FirstName =//input[@name='first_name']
+LastName =//input[@name='last_name'] 
+Email =//input[@name='email']
+Phone =//input[@name='mobile_number']
+PassWord =//input[@name='pswd']
+CPassWord=//input[@name='cpswd']
+Registerbutton =//button[contains(text(),'Register')]
+
+
+
+######  Home  ######
+Home =//a[text()='Home']
+
+####product1####
+Onlineproducts= //a[text()='Online Products']
+Nproduct = //*[@id="example-one"]/li[4]/ul/li[1]/a/label
+cloud =//*[@id="site"]/div/div[1]/div[4]/div/div[2]/h3[1]/a
+title =//h3[@class="title title2"]
+title1 =//h5[@class=" title1"]
+
+###addtocart####
+addtocart =//input[@id="button-cart"]
+cart=//li[@class="cart"]
+
+####checkout###
+
+checkout =//a[text()='Proceed To Checkout']
+firstname= //input[@value='nandini']
+lastname=//input[@value='suri']
+EMAIL=//input[@name='email']
+phone=//input[@name='phone']
+
+
+

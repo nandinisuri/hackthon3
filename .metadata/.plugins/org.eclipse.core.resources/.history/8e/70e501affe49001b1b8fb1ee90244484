@@ -1,0 +1,98 @@
+package com.qa.testcases;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.qaTestBase.TestBASE;
+
+public class feronadmin1_excel extends TestBASE{
+
+		public feronadmin1_excel() throws IOException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+		public void feronadmin_excel() throws IOException {
+			
+			
+		}
+		
+		@BeforeMethod
+		@Parameters("browser")
+
+		public void Start_initialization(String browser) throws IOException {
+			
+			//
+			OpenBrowser(browser);
+			//
+			GetURL(config.getProperty("AdminURL"));
+			
+			
+			}
+		
+		@Test
+		public void feron_excel() throws IOException, InterruptedException {
+
+			Sendkeys(driver, org.getProperty("admin_un"), config.getProperty("Admin_un"));
+			Sendkeys(driver, org.getProperty("admin_pw"), config.getProperty("Admin_pw"));
+			Click(driver, org.getProperty("admin_btn"));
+			
+			Click(driver, org.getProperty("product_list"));
+			Click(driver, org.getProperty("Addproduct"));
+			
+			Click(driver, org.getProperty("purchase"));
+			
+			// Open the Excel file
+
+			FileInputStream f= new FileInputStream("C:\\Users\\dell\\Desktop\\excel.xlsx");
+			XSSFWorkbook wb =new XSSFWorkbook(f);
+			XSSFSheet sh=wb.getSheet("Sheet1");
+
+			
+			int totalNoOfRows = sh.getRows();
+			String row1=sh.getRow(0).getCell(0).getStringCellValue();
+			String col1=sh.getRow(0).getCell(1).getStringCellValue();
+			String col2=sh.getRow(0).getCell(2).getStringCellValue();
+			
+			System.out.println(rowCount+"   "+row1+"  " );
+			for(int i=1; i<=rowCount; i++) {
+				XSSFRow row = sh.getRow(i);
+			 
+				
+				/*
+				 * for (int j = 0; j < row.getLastCellNum(); j++) {
+				 * System.out.print(sh.getRow(i).getCell(j).getStringCellValue() +",");
+				 * 
+				 * System.out.print(row.getCell(j).getStringCellValue()+"|| ");
+				 * 
+				 * }
+				 */
+			 	
+          Sendkeys(driver, org.getProperty("productname"),row.getCell(0).getStringCellValue());
+          
+
+          Sendkeys(driver, org.getProperty("producttype"),row.getCell(1).getStringCellValue());
+          //Select s= new Select(driver.findElement(By.xpath("//option[text()=' Tablets ']")));
+          Sendkeys(driver, org.getProperty("category"),row.getCell(2).getStringCellValue());
+          Sendkeys(driver, org.getProperty("Price"),row.getCell(4).getStringCellValue());
+          
+          
+        //driver.findElement(By.xpath("//input[@name='per_strip_pack']"));
+         
+          //Sendkeys(driver, org.getProperty("Quantitypack"),row.getCell(3).getNumericCellValue());
+
+			}
+		
+		}
+		
+}

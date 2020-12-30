@@ -1,0 +1,86 @@
+####### Loging fun#######
+
+Login   =  //a[text()='Login']
+USERNAME= //input[@name='email']
+Password= //input[@name='password']
+Loginbutton= //button[contains(text(),'Login')]
+            
+            #-------------------Admin Panel-------------------#
+admin_un     = //input[@name='email']
+admin_pw     = //input[@name='password']
+admin_btn    = //button[text()='SIGN IN']
+product_list = //span[text()='Product List']
+
+
+########feron product list....###
+Addproduct =//a[text()='ADD Product']
+purchase =//label[text()='Online']
+productname=//input[@name='name']
+producttype=//select[@name='product_name']
+category =//select[@name='category_name']
+
+
+
+######   Signup  ######
+
+Signup =//a[text()='SIGNUP']
+FirstName =//input[@name='first_name']
+LastName =//input[@name='last_name'] 
+Email =//input[@name='email']
+Phone =//input[@name='mobile_number']
+PassWord =//input[@name='pswd']
+CPassWord=//input[@name='cpswd']
+Registerbutton =//button[contains(text(),'Register')]
+
+
+
+######  Home  ######
+Home =//a[text()='Home']
+
+####product1####
+Onlineproducts= //a[text()='Online Products']
+Nproduct = //*[@id="example-one"]/li[4]/ul/li[1]/a/label
+cloud =//*[@id="site"]/div/div[1]/div[4]/div/div[2]/h3[1]/a
+title =//h3[@class="title title2"]
+title1 =//h5[@class=" title1"]
+
+
+########MULTIPLE PRODUCTS#####
+product=(//div[@class='product-grid'])["+i+"]
+PRODUCTURL=http://grepthorhosting.com/feron/onlineproducts/1
+
+
+
+
+
+
+
+
+
+
+
+###addtocart####
+addtocart =//input[@id="button-cart"]
+cart=//li[@class="cart"]
+####unitprice###
+Uprice=//th[text()='Unit Price']
+subtotal=//h6[text()='Sub total :']
+shipcharge=//span[@id='shipping']
+total=//h6[text()='Total :']
+
+####checkout###
+
+checkout =//a[text()='Proceed To Checkout']
+firstname= //input[@value='nandini']
+lastname=//input[@value='suri']
+EMAIL=//input[@name='email']
+phone=//input[@name='phone']
+Select=//select[@name='got_the_knowledge']
+location=//select[@name='location']
+doctor=//input[@name='doctor_name']
+hospital=//input[@name='hospital_name']
+address=//textarea[@name='address']
+paybutton=//button[@id='pay-button']
+
+
+

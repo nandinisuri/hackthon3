@@ -1,0 +1,59 @@
+package com.qa.testcases;
+
+import java.io.IOException;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.qaTestBase.TestBASE;
+
+
+	public class Admin_feron extends TestBASE{
+
+		public Admin_feron() throws IOException {
+			super();
+			
+		}
+		
+		@BeforeMethod
+		@Parameters("browser")
+
+		public void Start_initialization(String browser) throws IOException {
+			
+			//
+			OpenBrowser(browser);
+			//
+			GetURL(config.getProperty("ADMINURL"));
+			
+			
+			}
+			
+		@Test
+		public void table() {
+			
+			Sendkeys(driver, org.getProperty("adminlog"), config.getProperty("ADMINLOG"));
+			Sendkeys(driver, org.getProperty("adminpw"), config.getProperty("ADMINPW"));
+			Click(driver, org.getProperty("adminbtn"));
+			
+			
+			Click(driver, org.getProperty("PRODUCTLIST"));
+			 
+			List<WebElement> table = driver.findElements(By.xpath("//table[@id='product_list']/tbody/tr"));
+			int table_size = table.size();
+			System.out.println(table_size);
+			for(int i=1;i<=table_size;i++) {
+				
+				WebElement tablerow = driver.findElement(By.xpath("//table[@id='product_list ']/tbody/tr["+i+"]/td[3]"));
+				String product_name= tablerow.getText();
+				System.out.println("The Product Name is :"+product_name);
+				
+				WebElement tablerow1 = driver.findElement(By.xpath("//table[@id='product_list']/tbody/tr["+i+"]/td[4]"));
+				String product_type= tablerow1.getText();
+				System.out.println("The Product Type is :"+product_type);
+			}
+		}
+}

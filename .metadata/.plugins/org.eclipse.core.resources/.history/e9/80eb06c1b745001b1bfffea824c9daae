@@ -1,0 +1,37 @@
+package com.qa.testcases;
+
+import java.io.IOException;
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.qaTestBase.TestBASE;
+
+public class Admin extends TestBASE{
+
+	public Admin() throws IOException {
+		super();
+		
+	}
+	
+	@BeforeMethod
+	@Parameters("browser")
+
+	public void Start_initialization(String browser) throws IOException {
+		
+		//
+		OpenBrowser(browser);
+		//
+		GetURL(config.getProperty("AdminURL"));
+		
+		
+		}
+		
+	@Test
+	public void table() {
+		
+	}
+	
+
+}

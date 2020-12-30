@@ -1,0 +1,129 @@
+package com.qa.testcases;
+
+import java.io.IOException;
+import java.util.List;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Reporter;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.qaTestBase.TestBASE;
+
+public class  feron_product1 extends TestBASE{
+
+	public feron_product1() throws IOException 
+	
+	{
+		super();
+	}
+
+	
+	
+
+	@BeforeMethod
+	@Parameters("browser")
+
+	public void Start_initialization(String browser) throws IOException {
+		
+		//
+		OpenBrowser(browser);
+		//
+		GetURL(config.getProperty("URL"));
+		
+		
+		}
+		
+	
+
+		@Test()
+		public void feron_product1() throws IOException, InterruptedException  {
+			 Reporter.log("feron_product1",true);
+			 
+			 Click(driver, org.getProperty("Login"));
+				
+
+				Feron_Login login= new Feron_Login();
+	            login.Feron_Login();
+	            
+	            Actions a = new Actions(driver);
+	            a.moveToElement(driver.findElement(By.xpath("//a[text()='Online Products']"))).perform();
+				 Click(driver, org.getProperty("Nproduct"));
+				 
+				  JavascriptExecutor js = (JavascriptExecutor) driver;
+				  js.executeScript("window.scrollBy(0,650)", "");
+				  
+				
+				  
+					 Click(driver, org.getProperty("cloud"));
+
+					 Click(driver, org.getProperty("title"));
+					 Click(driver, org.getProperty("title1"));
+					 ///ADD TO CART////
+					 Click(driver, org.getProperty("addtocart"));
+					 Thread.sleep(2000);
+					 Alert alert = driver.switchTo().alert();
+						String dd=alert.getText();
+						System.out.println(dd);
+						alert.accept();
+						
+						 Actions aw = new Actions(driver);
+				           Click(driver, org.getProperty("cart"));
+				          
+				           
+				          
+							  Actions a1 = new Actions(driver);
+							  
+					           Click(driver, org.getProperty("checkout"));
+					           
+					   		Sendkeys(driver, org.getProperty("firstname"), config.getProperty("Firstname"));
+					   		Sendkeys(driver, org.getProperty("lastname"), config.getProperty("Lastname"));
+					   		Sendkeys(driver, org.getProperty("EMAIL"), config.getProperty("emaiL"));
+					   		Sendkeys(driver, org.getProperty("phone"), config.getProperty("PhonE"));
+					   		Select s= new Select(driver.findElement(By.name("got_the_knowledge")));
+							
+							List<WebElement> options= s.getOptions();
+							 
+							int options_size = options.size();
+					        System.out.println(options_size);
+					        
+					        for(int i=0;i<=options_size;i++) {
+					        	
+					        	String opt_value = options.get(i).getText();
+					        	
+					        	System.out.println(opt_value);
+					        	if (opt_value.equals("As per doctors prescription")) {
+					        		s.selectByVisibleText(opt_value); 
+					        		
+							           Click(driver, org.getProperty("location"));
+								   		Select s1= new Select(driver.findElement(By.name("location")));
+
+						     			List<WebElement> voptions= s1.getOptions();
+						     			int voptions_size = voptions.size();
+						     	        System.out.println(voptions_size);
+						     	        
+						     	        for(int j=0;j<=voptions_size;j++) {
+						     	        	
+						     	        	String vopt_name = voptions.get(j).getText();
+						     	        	
+						     	        	System.out.println(vopt_name);
+						     	        	if (vopt_name.equals("vijayawada")) {
+						     	        		s1.selectByVisibleText(vopt_name);
+						     	        		
+									Sendkeys(driver, org.getProperty("doctor"), config.getProperty("Doctorname"));
+							   		Sendkeys(driver, org.getProperty("hospital"), config.getProperty("Hospitalname"));
+							   		Sendkeys(driver, org.getProperty("Address"), config.getProperty("address"));
+
+
+	          	        	
+	        
+					        	}}}
+	          	        	
+					        }}
+		}

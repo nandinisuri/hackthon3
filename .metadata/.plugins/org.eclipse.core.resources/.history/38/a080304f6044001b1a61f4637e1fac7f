@@ -1,0 +1,91 @@
+package com.qa.testcases;
+
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.Reporter;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.qaTestBase.TestBASE;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+
+public class Feron_Login extends TestBASE{
+
+	public Feron_Login() throws IOException 
+	{
+		super();
+		
+	}
+	
+
+	@BeforeMethod
+	@Parameters("browser")
+
+	public void Start_initialization(String browser) {
+		
+		//
+		OpenBrowser(browser);
+		//
+		GetURL(config.getProperty("URL"));
+		
+	}
+	
+	
+	@Test
+	public void FeronLogin()  {
+		 Reporter.log("Feron_Login",true);
+		 
+		 
+                  //LOGIN CREDENTIALS/////
+		Click(driver, org.getProperty("Login"));
+		Reporter.log("Login",true);
+		
+		              ///Username//
+		Sendkeys(driver, org.getProperty("USERNAME"), config.getProperty("username"));
+		Reporter.log("USERNAME",true);
+
+	              	//PASSWORD DETAILS//
+		Sendkeys(driver, org.getProperty("Password"), config.getProperty("password"));
+		Reporter.log("Password",true);
+
+	                //// SUBMIT BUTTON/////
+		
+		Click(driver, org.getProperty("Loginbutton"));
+		Reporter.log("Loginbutton",true);
+		 
+		             //////ALERT POPUP/////
+		
+		
+		Alert alert = driver.switchTo().alert();
+		String x=alert.getText();
+		System.out.println(x);
+		alert.accept();
+		
+		/*
+		 * JavascriptExecutor js = (JavascriptExecutor) driver;
+		 * js.executeScript("window.scrollBy(0,1000)", "");
+		 * 
+		 * 
+		 * Click(driver,org.getProperty("Afinitor"));
+		 */
+	
+				
+		
+				}
+		
+	}
+
+
+	
+	
+	
+	
+

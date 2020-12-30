@@ -1,0 +1,34 @@
+#-------------------Admin Panel-------------------#
+AdminURL = http://grepthorhosting.com/feron/admin
+Admin_un = admin@gmail.com
+Admin_pw = 1234
+
+
+#............ADMIN_FERON......#
+
+ADMINURL=http://grepthorhosting.com/feron/admin
+ADMINLOG=admin@gmail.com
+ADMINPW= 1234
+
+URL = http://grepthorhosting.com/feron/
+username =nandinisuri4@gmail.com
+password =Next@click
+firstname =nandini
+lastname =suri
+email =nandinisuri4@gmail.com
+phone =1234567892
+PASSWORD =Next@click
+cpassword =Next@click
+
+#####payment details######
+Firstname=nandini
+Lastname=suri
+emaiL=nandinisuri4@gmail.com
+PhonE=1234567892
+Hospitalname=sripadh clinic
+DoctorName =sripadh
+Address= F.no=103,saptapadhi residency,chandanagr,hyderabad.
+
+
+
+

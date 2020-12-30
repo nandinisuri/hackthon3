@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;selenium001.NextClick&apos; to &apos;Home&apos;&#x0D;&#x0A;- Original project: &apos;selenium01&apos;&#x0D;&#x0A;- Original element: &apos;selenium001.NextClick&apos;&#x0D;&#x0A;- Renamed element: &apos;selenium001.Home&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;NextClick&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;selenium001{NextClick.java[NextClick" matchStrategy="1" name="Home" qualified="false" references="true" similarDeclarations="false" stamp="1606218601505" textual="false" version="1.0"/>
+</session>

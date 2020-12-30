@@ -1,0 +1,84 @@
+package com.qa.testcases;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.qaTestBase.TestBASE;
+
+public class feronadmin1_excel extends TestBASE{
+
+		public feronadmin1_excel() throws IOException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+		public void feronadmin_excel() throws IOException {
+			
+			
+		}
+		
+		@BeforeMethod
+		@Parameters("browser")
+
+		public void Start_initialization(String browser) throws IOException {
+			
+			//
+			OpenBrowser(browser);
+			//
+			GetURL(config.getProperty("AdminURL"));
+			
+			
+			}
+		
+		@Test
+		public void feron_excel() throws IOException, InterruptedException {
+
+			Sendkeys(driver, org.getProperty("admin_un"), config.getProperty("Admin_un"));
+			Sendkeys(driver, org.getProperty("admin_pw"), config.getProperty("Admin_pw"));
+			Click(driver, org.getProperty("admin_btn"));
+			
+			Click(driver, org.getProperty("product_list"));
+			Click(driver, org.getProperty("Addproduct"));
+			
+			Click(driver, org.getProperty("purchase"));
+			
+			// Open the Excel file
+
+			FileInputStream f= new FileInputStream("C:\\Users\\dell\\Desktop\\excel.xlsx");
+			XSSFWorkbook wb =new XSSFWorkbook(f);
+			XSSFSheet sh=wb.getSheet("Sheet1");
+			int rowCount = sh.getLastRowNum();
+	        System.out.println(rowCount);
+	        int colCount = sh.getRow(0).getLastCellNum();
+	        System.out.println(colCount);
+			
+	        for (int i = 0; i < rowCount+1; i++) {
+
+				XSSFRow row = sh.getRow(i);
+
+				//Create a loop to print cell values in a row
+
+				for (int j = 0; j < row.getLastCellNum(); j++) {
+
+					//Print Excel data in console
+
+					System.out.print(row.getCell(j).getStringCellValue()+"|| ");
+					Sendkeys(driver, org.getProperty("productname"),row.getCell(0).getStringCellValue());
+					
+				}
+				
+	        }
+		
+		}
+		
+}
