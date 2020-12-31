@@ -6355,3 +6355,271 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2020-12-30 09:47:53,180 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
 2020-12-30 09:47:53,180 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-12-30 09:47:53,181 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 12:50:12,652 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 12:50:12,653 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 12:50:12,654 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 12:50:12,654 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 12:51:35,610 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 12:51:35,611 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 12:51:35,614 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 12:51:35,614 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 12:54:03,663 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 12:54:03,663 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 12:54:03,667 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 12:54:03,667 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 12:55:52,851 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 12:55:52,851 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 12:55:52,852 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 12:55:52,853 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 12:57:26,888 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 12:57:26,889 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 12:57:26,889 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 12:57:26,890 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 12:58:52,857 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 12:58:52,857 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 12:58:52,858 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 12:58:52,858 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:08:58,589 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:08:58,590 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:08:58,593 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:08:58,593 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:09:09,826 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:09:09,826 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:09:09,830 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:09:09,830 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:11:13,290 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:11:13,290 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:11:13,291 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:11:13,292 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:13:36,993 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:13:36,993 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:13:36,995 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:13:36,995 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:13:53,087 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:13:53,087 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:13:53,088 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:13:53,088 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:14:47,405 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:14:47,405 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:14:47,406 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:14:47,406 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:19:28,046 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:19:28,047 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:19:28,048 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:19:28,048 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:19:35,899 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:19:35,899 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:19:35,900 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:19:35,901 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:20:48,665 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:20:48,666 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:20:48,668 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:20:48,668 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:21:06,929 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:21:06,929 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:21:06,934 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:21:06,934 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:22:13,742 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:22:13,743 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:22:13,745 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:22:13,745 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:24:13,205 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:24:13,206 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:24:13,207 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:24:13,207 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:24:23,004 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:24:23,004 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:24:23,006 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:24:23,006 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:25:18,982 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:25:18,982 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:25:18,983 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:25:18,983 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:26:44,113 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:26:44,113 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:26:44,114 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:26:44,114 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:27:49,794 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:27:49,794 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:27:49,795 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:27:49,795 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:28:02,183 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:28:02,184 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:28:02,186 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:28:02,186 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:38:03,874 [Worker-150: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:38:03,874 [Worker-150: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:38:03,876 [Worker-150: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:38:03,876 [Worker-150: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:49:30,435 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:49:30,436 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:49:30,437 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:49:30,437 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:51:17,527 [Worker-150: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:51:17,528 [Worker-150: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:51:17,529 [Worker-150: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:51:17,530 [Worker-150: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:51:30,237 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:51:30,237 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:51:30,238 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:51:30,238 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:56:46,099 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:56:46,099 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:56:46,100 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:56:46,100 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:57:56,577 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:57:56,578 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:57:56,578 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:57:56,579 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 13:58:01,139 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:58:01,139 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 13:58:01,140 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 13:58:01,140 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:00:08,852 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:00:08,853 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:00:08,854 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:00:08,854 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:01:29,715 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:01:29,716 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:01:29,717 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:01:29,718 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:05:49,078 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:05:49,078 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:05:49,079 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:05:49,079 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:07:07,526 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:07:07,526 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:07:07,528 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:07:07,529 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:11:30,794 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:11:30,794 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:11:30,795 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:11:30,795 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:12:17,638 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:12:17,639 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:12:17,640 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:12:17,640 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:14:34,827 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:14:34,827 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:14:34,828 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:14:34,829 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:16:53,227 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:16:53,227 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:16:53,228 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:16:53,229 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:18:24,741 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:18:24,742 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:18:24,743 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:18:24,743 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:21:08,071 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:21:08,072 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:21:08,073 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:21:08,073 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:21:14,783 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:21:14,783 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:21:14,784 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:21:14,784 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:21:31,507 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:21:31,508 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:21:31,508 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:21:31,509 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:21:54,539 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:21:54,539 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:21:54,541 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:21:54,541 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:31:45,417 [Worker-179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:31:45,417 [Worker-179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:31:45,418 [Worker-179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:31:45,418 [Worker-179: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:31:58,708 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:31:58,708 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:31:58,709 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:31:58,709 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:36:01,142 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:36:01,144 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:36:01,145 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:36:01,145 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:38:24,358 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:38:24,358 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:38:24,359 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:38:24,359 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:39:06,402 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:39:06,402 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:39:06,403 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:39:06,403 [Worker-185: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:39:16,798 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:39:16,798 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:39:16,799 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:39:16,799 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:41:08,588 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:41:08,588 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:41:08,589 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:41:08,589 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:44:55,197 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:44:55,198 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:44:55,200 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:44:55,200 [Worker-178: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:48:58,160 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:48:58,167 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:48:58,169 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:48:58,169 [Worker-191: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 14:59:49,070 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:59:49,071 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 14:59:49,072 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 14:59:49,072 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 15:01:18,705 [Worker-198: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:01:18,705 [Worker-198: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 15:01:18,711 [Worker-198: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:01:18,711 [Worker-198: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 15:03:49,783 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:03:49,783 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 15:03:49,784 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:03:49,784 [Worker-197: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 15:05:21,835 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:05:21,835 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 15:05:21,837 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:05:21,837 [Worker-196: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 15:08:51,393 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:08:51,394 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 15:08:51,396 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:08:51,396 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 15:09:00,418 [Worker-203: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:09:00,418 [Worker-203: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 15:09:00,419 [Worker-203: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:09:00,419 [Worker-203: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 15:11:18,575 [Worker-205: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:11:18,581 [Worker-205: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 15:11:18,583 [Worker-205: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:11:18,583 [Worker-205: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 15:13:41,436 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:13:41,436 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 15:13:41,438 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:13:41,438 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 15:13:44,932 [Worker-207: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:13:44,932 [Worker-207: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 15:13:44,933 [Worker-207: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:13:44,933 [Worker-207: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 15:15:04,997 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:15:04,999 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 15:15:05,005 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:15:05,007 [Worker-204: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 15:15:15,848 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:15:15,849 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 15:15:15,850 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:15:15,850 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 15:15:41,895 [Worker-207: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:15:41,895 [Worker-207: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 15:15:41,896 [Worker-207: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:15:41,896 [Worker-207: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 15:15:59,503 [Worker-209: Launching Feron_XML_Files.excelferon.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:15:59,504 [Worker-209: Launching Feron_XML_Files.excelferon.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 15:15:59,504 [Worker-209: Launching Feron_XML_Files.excelferon.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:15:59,504 [Worker-209: Launching Feron_XML_Files.excelferon.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 15:19:25,340 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:19:25,340 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 15:19:25,343 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:19:25,343 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources
+2020-12-30 15:19:38,262 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:19:38,262 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\main\resources
+2020-12-30 15:19:38,264 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-30 15:19:38,264 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\seleniumFiles\selenium_workspace\Feron\src\test\resources

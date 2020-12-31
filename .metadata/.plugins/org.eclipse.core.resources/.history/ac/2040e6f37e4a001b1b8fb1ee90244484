@@ -1,0 +1,120 @@
+package com.qa.testcases;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Reporter;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.qaTestBase.TestBASE;
+
+public class feronadmin_excel extends TestBASE{
+
+		public feronadmin_excel() throws IOException {
+			super();
+			
+		}
+		
+		@BeforeMethod
+		@Parameters("browser")
+
+		public void Start_initialization(String browser) throws IOException {
+			
+			//
+			OpenBrowser(browser);
+			//
+			GetURL(config.getProperty("AdminURL"));
+			
+			
+			}
+		
+		@Test
+		public void feron_excel() throws IOException, InterruptedException {
+                     //LOGIN CREDENTIALS///
+			Sendkeys(driver, org.getProperty("admin_un"), config.getProperty("Admin_un"));
+			Reporter.log("admin_un",true);
+			Sendkeys(driver, org.getProperty("admin_pw"), config.getProperty("Admin_pw"));
+			Reporter.log("admin_pw",true);
+
+			Click(driver, org.getProperty("admin_btn"));
+			Reporter.log("admin_btn",true);
+
+			//CLICK PRODUCT LIST//
+			Click(driver, org.getProperty("product_list"));
+			Reporter.log("product_list",true);
+			          // Open the Excel file
+
+				FileInputStream f= new FileInputStream("C:\\Users\\dell\\Desktop\\excel.xlsx");
+					XSSFWorkbook wb =new XSSFWorkbook(f);
+						XSSFSheet sh=wb.getSheet("Sheet1");
+
+						//EXCEL ROWCOUNT
+						int rowCount= sh.getLastRowNum();
+						String row1=sh.getRow(0).getCell(0).getStringCellValue();
+						Reporter.log("lastrownum",true);
+
+						String col1=sh.getRow(0).getCell(1).getStringCellValue();
+						String col2=sh.getRow(0).getCell(2).getStringCellValue();
+						
+						System.out.println(rowCount+"   "+row1+"  " );
+						for(int i=1; i<=rowCount; i++) {
+							XSSFRow row = sh.getRow(i);
+						 
+			//ADD PROUDUCT//
+
+			Click(driver, org.getProperty("Addproduct"));
+			Reporter.log("Addproduct",true);
+
+			//PURCHASE//
+			Click(driver, org.getProperty("purchase"));
+			Reporter.log("purchase",true);
+
+			//PRODUCTNAME//
+			 	
+          Sendkeys(driver, org.getProperty("productname"),row.getCell(0).getStringCellValue());
+			Reporter.log("paracetmol",true);
+             //PRODUCT TYPE//
+
+          Sendkeys(driver, org.getProperty("producttype"),row.getCell(1).getStringCellValue());
+			Reporter.log("Tablets",true);
+
+          //Select s= new Select(driver.findElement(By.xpath("//option[text()=' Tablets ']")));
+			
+			//Category//
+       Sendkeys(driver, org.getProperty("category"),row.getCell(2).getStringCellValue());
+			Reporter.log("Nephrology products",true);
+			
+			//QUANTITY PACK//
+	         
+	    Sendkeys(driver, org.getProperty("Quantitypack"),row.getCell(3).getNumericCellValue());
+				Reporter.log("Quantitypack",true);
+			
+			//PRICE//
+
+          Sendkeys(driver, org.getProperty("Price"),row.getCell(4).getStringCellValue());
+			Reporter.log("price",true);
+
+          
+        //driver.findElement(By.xpath("//input[@name='per_strip_pack']"));
+			//GST//
+	     Sendkeys(driver, org.getProperty("Gst"),row.getCell(5).getNumericCellValue());
+				Reporter.log("gst",true);
+				//DISCOUNT//
+		 Sendkeys(driver, org.getProperty("discount"),row.getCell(6).getNumericCellValue());
+
+
+				}
+
+			}
+		
+		}
+		
+
